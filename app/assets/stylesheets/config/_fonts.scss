@@ -14,3 +14,24 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+@font-face {
+  font-family: "Simply Rounded";
+  src: font-url("SimplyRounded.ttf") format("opentype"), font-url("SimplyRoundedBold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Garamond";
+  src: font-url("GaramondPremierProDisplay.otf") format("opentype"), font-url("GaramondPremierProDisplay.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: font-url("Karla-Regular") format("opentype"), font-url("Karla-Regular") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
