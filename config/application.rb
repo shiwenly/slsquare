@@ -12,6 +12,9 @@ module Slsquare
       generate.assets false
       generate.helper false
       generate.test_framework :test_unit, fixture: false
+
+      # For error message customizing
+      config.exceptions_app = self.routes
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
