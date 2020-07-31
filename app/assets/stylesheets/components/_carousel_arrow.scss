@@ -1,7 +1,7 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 34px;
-  width: 34px;
+  height: 24px;
+  width: 24px;
   background: rgba(0,0,0,.2);
   border-radius: 50%;
   // outline: black;
@@ -14,12 +14,14 @@
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 22px;
+  font-size: 16px;
   color: white;
+   font-weight: bolder;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 22px;
+  font-size: 16px;
   color: white;
+  font-weight: bolder;
 }
