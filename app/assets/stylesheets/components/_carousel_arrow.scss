@@ -25,3 +25,17 @@
   color: white;
   font-weight: bolder;
 }
+
+.carousel-control-prev {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px
+}
+
+.carousel-control-next {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px
+}
+
+
